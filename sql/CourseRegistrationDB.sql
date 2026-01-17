@@ -134,9 +134,3 @@ SELECT Course_ID FROM Courses;
 
 
 
-SELECT COUNT(*) AS Departments_Count FROM Departments;
-SELECT COUNT(*) AS Instructors_Count FROM Instructors;
-SELECT COUNT(*) AS Courses_Count FROM Courses;
-SELECT COUNT(*) AS Students_Count FROM Students;
-SELECT COUNT(*) AS Enrollments_Count FROM Enrollments;
-SELECT COUNT(*) AS Course_Requirements_Count FROM Course_Requirements;
