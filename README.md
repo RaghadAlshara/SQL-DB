@@ -1,5 +1,4 @@
-This project is a Course Registration Database created using SQL. The database allows students to register for courses and keeps track of students, courses, instructors, departments, and enrollments. It is designed as a base for a future web application that may be developed later as part of a graduation project.
-
+This project is a Course Registration Database created using SQL. The database allows students to register for courses and keeps track of students, courses, instructors, departments, and enrollments.
 The database includes the following tables:
 Departments table stores information about academic departments.
 Instructors table stores information about instructors and links each instructor to a department.
@@ -10,9 +9,7 @@ Course_Requirements table is used to define prerequisite relationships between c
 The SQL queries in this project allow adding new students, enrolling students in courses, updating enrollment status, viewing students enrolled in a specific course, finding courses taught by a specific instructor, listing courses by department, listing students who completed a course, and handling late course registration.
 
 Project structure:
-01_create_tables.sql
-02_insert_data.sql
-03_queries.sql
+CourseRegistrationDB.sql
 README.md
 
-To run the project, open SQL Server Management Studio, create the database CourseRegistrationDB, then run the SQL files in the following order: create tables, insert data, and then run the queries.
+To run the project, open SQL Server Management Studio, create the database CourseRegistrationDB, then run the SQL queries in the following order: create tables, insert data, and then select queries to show different situations or run your own query.
