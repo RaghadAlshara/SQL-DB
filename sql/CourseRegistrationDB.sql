@@ -73,7 +73,7 @@ INSERT INTO Students VALUES
 (3, 'Yousef', 'Khaled', 'yousef@email.com', '0772222222', '2025-09-01'),
 (4, 'Lina', 'Hassan', 'lina@email.com', '0793333333', '2025-09-01'),
 (5, 'Omar', 'Salem', 'omar@email.com', '0784444444', '2025-09-01'),
-(6, 'Raghad', 'Alshare', 'raghad@email.com', '0791234567','2025-09-01');
+(6, 'Raghad', 'Alshare', 'raghad@email.com', '0795555555','2025-09-01');
 
 
 INSERT INTO Instructors (Instructor_ID, Name, Department_ID, Email) VALUES
@@ -131,6 +131,7 @@ WHERE s.Student_ID NOT IN (
 
 SELECT Student_ID FROM Students;
 SELECT Course_ID FROM Courses;
+
 
 
 
